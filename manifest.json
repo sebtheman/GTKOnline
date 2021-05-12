@@ -1,1 +1,16 @@
-shitbum
+{
+    "manifest_version": 2,
+  
+    "name": "GTKOnline",
+    "description": "Applies GTK styles to any website you visit",
+    "version": "0.1",
+  
+    "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "extension_resources/extension.html"
+    },
+    "permissions": [
+     "activeTab"
+     ]
+  }
+  
