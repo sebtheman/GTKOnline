@@ -1,0 +1,23 @@
+body {
+    min-width: 400px; /* your desired width */
+    max-width: 100%;
+    position: relative;
+    vertical-align:middle;
+}
+h1 {
+    font-weight: bolder;
+    text-align: center;
+}
+#clickMe {
+    border-color: brown;
+    border-width: 5px;
+    border-style: solid;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    text-align: center;
+}
