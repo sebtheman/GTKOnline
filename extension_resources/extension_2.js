@@ -1,7 +1,9 @@
-var copy = $('body').clone()
+function copyHTML() {
+    var copy = $('body').clone()
 
-// existing code
+    // existing code
 
-chrome.runtime.onMessage.addListener(function() {
-	$('body').html($(copy))
-})
+    chrome.runtime.onMessage.addListener(function() {
+        $('body').html($(copy))
+    })
+}
