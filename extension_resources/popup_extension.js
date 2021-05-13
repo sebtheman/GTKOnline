@@ -11,3 +11,9 @@ document.getElementById('clickMe').addEventListener('click', function() {
         document.getElementById('clickMe').textContent="Change styling to GDK";
     }
 });
+
+$(document).ready(function() {
+	$('.deadify').click(function() {
+		chrome.runtime.sendMessage({ undo: true })
+	})
+})
