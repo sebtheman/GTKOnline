@@ -1,6 +1,8 @@
 window.onload = function() {
     document.write("Testing")
     document.write("<br>")
+    document.write("Sebastian Sexy")
+    document.write("<br>")
     document.write("I know this is annoying, having this replace the whole entire website with this text.")
     document.write("<br>")
     document.write("This will eventually get fixed right now")
@@ -17,10 +19,3 @@ window.onload = function() {
     document.write("<br>")
     document.write("The page will then be back to normal :)")
 }
-var copy = $('body').clone()
-
-// existing code
-
-chrome.runtime.onMessage.addListener(function() {
-	$('body').html($(copy))
-})
