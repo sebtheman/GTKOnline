@@ -1,3 +1,4 @@
+/* This code is going to be commented until I get the popup checkbox working
 window.onload = function() {
     document.write("Testing")
     document.write("<br>")
@@ -19,3 +20,4 @@ window.onload = function() {
     document.write("<br>")
     document.write("The page will then be back to normal :)")
 }
+*/
